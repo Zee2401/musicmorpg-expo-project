@@ -1,0 +1,31 @@
+{
+  "name": "musicmorpg",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "build:apk": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "3.1.1",
+    "@react-navigation/bottom-tabs": "^7.21.0",
+    "@react-navigation/native": "^7.5.1",
+    "expo": "~58.0.17",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "5.10.1",
+    "react-native-screens": "4.30.0",
+    "react-native-web": "^0.21.4",
+    "@expo/metro-runtime": "~58.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "babel-preset-expo": "~14.0.0"
+  }
+}

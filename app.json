@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Music MORPG",
+    "slug": "musicmorpg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "musicmorpg",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#0e0b14",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.musicmorpg.app"
+    },
+    "android": {
+      "package": "com.musicmorpg.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Music MORPG",
+      "shortName": "MusicMORPG",
+      "themeColor": "#0e0b14",
+      "backgroundColor": "#0e0b14"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-4000-8000-000000000000"
+      }
+    }
+  }
+}

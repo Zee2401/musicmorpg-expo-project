@@ -1,0 +1,25 @@
+# OS / editor noise
+.DS_Store
+*.log
+
+# Node
+node_modules/
+npm-debug.*
+
+# Expo
+.expo/
+web-build/
+dist/
+
+# Native build output
+android/
+ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Env
+.env
+.env.local

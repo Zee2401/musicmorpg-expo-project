@@ -1,0 +1,8 @@
+import { registerRootComponent } from 'expo';
+
+import App from './App';
+
+// registerRootComponent calls AppRegistry.registerComponent('main', () => App)
+// and ensures the environment is set up correctly for Expo Go, dev clients,
+// and the web (Expo Web) target alike.
+registerRootComponent(App);
